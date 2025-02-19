@@ -3,6 +3,11 @@
 ## 📌 Description
 Briefly describe the purpose and functionality of the project.
 
+### ✨ Major User Facing Features
+- ✅ Feature 1 Maps support 
+- ✅ Feature 2 Ordering
+- ✅ Feature 3 Payment support  
+
 ## 📸 Screenshots
 *(Optional, add UI previews if useful)*  
 ![Screenshot 1](path/to/screenshot1.png)  
@@ -10,15 +15,15 @@ Briefly describe the purpose and functionality of the project.
 
 ## 🛠 Tech Stack
 - **Language:** Kotlin / Java  
-- **Architecture:** MVVM / Clean Architecture  
 - **Libraries:** Retrofit, Room, Hilt, Jetpack Compose, etc.  
 
 ## 🏗 Project Architecture
-Briefly explain the project's architecture.  
+Briefly explain how the project's architecture is built including how network logic and data persistent logic if existed  
 Example:  
-- MVVM with Repository Pattern  
+- MVVM with Clean Architecture 
 - Data Layer → Repository → ViewModel → UI  
-- Modularized structure (if applicable)  
+- Modularized structure (if applicable)
+- Supports remote and local data loading.
 
 ```
 📂 project-root  
@@ -30,48 +35,27 @@ Example:
 ```
 
 ## 🚀 Installation & Setup
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-org/project.git
-   cd project
-   ```
-2. Open the project in **Android Studio**.  
-3. Sync Gradle dependencies.  
-
-## 🔑 Environment Variables & Configuration
-- Add necessary API keys or credentials in `local.properties` or `.env` file.  
-- Example:  
-  ```properties
-  API_KEY="your-api-key-here"
-  BASE_URL="https://api.example.com"
-  ```
-
-## ✨ Core Features
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
+Explain any special setup that needs to be done to build your project including any variables and configurations 
+Example: 
+1. Do X. 
+2. Do Y 
+3. Do Z
 
 ## 🏗 Build & Run Instructions
-1. Ensure you have **Android Studio** installed.  
-2. Connect a device or use an emulator.  
-3. Run the app:  
-   ```bash
-   ./gradlew assembleDebug
-   ```
+Explain how the developer builds and runs the codebase including any specific build configurations
+1. Do X
+2. Do y   
+3. Do z
 
 ## 🧪 Testing
-- Run unit tests:  
-  ```bash
-  ./gradlew testDebugUnitTest
-  ```
-- Run UI tests:  
-  ```bash
-  ./gradlew connectedAndroidTest
-  ```
+Explain how tests are created and executed in your project.
 
 ## 🤝 Contribution Guidelines
+Explain the guidelines of how a developer can contribute to your project 
+Example:
 - Follow **branching strategy** (e.g., `feature/`, `bugfix/`, `hotfix/`).  
 - Submit a **pull request** with clear commit messages.
+- Writing tests guidelines 
 - Commits style
 - Code style
 - Run tests before pushing code.  
